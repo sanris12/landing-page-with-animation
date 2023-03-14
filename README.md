@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/sanris12/landing-page-with-animation](https://github.com/sanris12/landing-page-with-animation)
-- Live Site URL: [https://sanris12.github.io/landing-page-with-animation/](https://sanris12.github.io/landing-page-with-animation/)
+- Live Site URL: [https://landing-page-with-animation-seven.vercel.app/](https://landing-page-with-animation-seven.vercel.app/)
 
 ## My process
 
