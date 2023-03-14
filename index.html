@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      main {
+        background-image: url("./images/bg-mobile.svg");
+      }
+      @media screen and (min-width: 375px) {
+        main {
+          background-image: url("./images/bg-desktop.svg");
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="p-5 md:p-10 bg-violet bg-no-repeat md:bg-center xl:bg-cover xl:h-screen">
+      <nav>
+        <img src="images/logo.svg" alt="logo" class="w-40 logo" />
+      </nav>
+      <header class="flex flex-col items-center md:flex-row">
+        <img src="images/illustration-mockups.svg" alt="illustration-mockups" class="my-10 md:w-1/2 animation-image" />
+
+        <div class="flex flex-col items-center gap-5 text-center md:w-1/2 md:items-start md:text-left md:px-10">
+          <h1 class="font-poppins text-3xl font-[600] text-white animation-h1">Build The Community Your Fans Will Love</h1>
+          <p class="font-openSans text-base text-white animation-p">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+          <div class="animation-btn"><button class="font-poppins text-violet bg-white py-2 px-12 rounded-full shadow-sm shadow-softMagenta hover:bg-softMagenta hover:text-white transition duration-200">Register</button></div>
+        </div>
+      </header>
+      <footer class="mt-10 flex justify-center gap-3 md:-mt-10 md:justify-end">
+        <div class="icon"><i class="bx bxl-facebook text-xl text-white border border-white rounded-full h-7 w-7 text-center hover:border-softMagenta hover:text-softMagenta transition duration-200"></i></div>
+        <div class="icon"><i class="bx bxl-twitter text-xl text-white border border-white rounded-full h-7 w-7 text-center hover:border-softMagenta hover:text-softMagenta transition duration-200"></i></div>
+        <div class="icon"><i class="bx bxl-instagram text-xl text-white border border-white rounded-full h-7 w-7 text-center hover:border-softMagenta hover:text-softMagenta transition duration-200"></i></div>
+      </footer>
+    </main>
+
+    <!-- javascript -->
+    <script src="anime.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
