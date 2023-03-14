@@ -10,7 +10,7 @@ This is a solution to the [Huddle landing page with single introductory section 
   - [Links](#links)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/sanris12/landing-page-with-animation](https://github.com/sanris12/landing-page-with-animation)
+- Live Site URL: [https://sanris12.github.io/landing-page-with-animation/](https://sanris12.github.io/landing-page-with-animation/)
 
 ## My process
 
